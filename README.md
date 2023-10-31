@@ -1,19 +1,31 @@
-![Twitter bot banner](https://user-images.githubusercontent.com/57842220/128793742-54918068-9017-4537-9d1f-f8a5236c2615.png)
+# Hackathon Retweet Bot 🚀
 
-To make life easier for all hackathon lovers, I developed a bot that will retweet everything related to these events. 👩‍💻
+Simplify your hackathon search experience with our dedicated bot that automates retweeting content related to these exciting events! 👩‍💻
 
-### How to run the Bot? 🏃‍♀️
+## How to Get Started
 
-Due to security concerns, the bot's private keys cannot be in the code, so to work, you need to replace in the **key.py** the variables ``consumer_key``, ``consumer_secret``, ``access_token`` and ``access_token_secret``.
+To get this bot up and running, follow these straightforward steps:
 
-You can use these commands in the terminal to run the bot:
+1. Clone this repository to your local machine.
 
+2. In the 'key.py' file, replace the following variables with your Twitter API credentials:
+```
+consumer_key
+consumer_secret
+access_token
+access_token_secret
+```
+
+3. Use the following commands in your terminal to start the bot:
 On Windows:
-```sh
+```
 py -3 main.py
 ```
-
 On other systems:
-```sh
+```
 python3 main.py
 ```
+
+## Why Use This Bot?
+
+Hackathon enthusiasts can now effortlessly stay updated on all things hackathons with the automatic retweeting feature of this bot. Whether it's announcements, updates, or highlights, this bot has you covered, making your hackathon experience more enjoyable and convenient.
